@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+    <!--makes website responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <!--icons-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <title>University Website Design</title>
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+    <!--Footer-->
+    <section class="about-us">
+
+        <div class="row">
+
+            <div class="about-col">
+                <h1>We are world's largest University</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam laborum doloremque accusantium quia repellat esse totam ea aspernatur, ut iure libero suscipit, enim quasi labore eligendi voluptatibus distinctio vel natus?</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+
+            <div class="about-col">
+                <img src="img/about.jpg">
+            </div>
+
+        </div>
+
+    </section>
+
+    
+
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit dolorem eveniet cum veritatis voluptate earum omnis et? <br>Labore nulla esse numquam ex, consequuntur deserunt eligendi eveniet laborum. Autem, pariatur corporis!</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+
+        <p>Made By <i class="fa fa-heart-o"></i> Suman Kumar Sahu</p>
+
+    </section>
+
+
+
+    <!--js for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+
+
+</body>
+</html>
