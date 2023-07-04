@@ -1,0 +1,13 @@
+3/7/23
+
+1. console api
+	console.log
+	console.warn
+	console.error
+	console.assert
+
+2. JS can be used in both client side(frontend) and server side(backend).
+3. Each browser has a JS engine, which runs the JS by default.
+4. JS is a programming language understood by both browser and compiler.
+5. An element can have multiple classes and only one unique id.
+6. Containers that stores data values are called variiables.
