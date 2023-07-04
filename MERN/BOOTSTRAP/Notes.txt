@@ -1,0 +1,17 @@
+4/7/2023
+
+LAYOUT
+
+1. Grid is divided into a total of 12 columns.
+	col-xs-12, col-sm-6
+2. Containers Props-
+	Vertical Alignment-
+		align-items-start
+		align-items-center
+		align-items-end
+	Horizontal Alignment-
+		justify-items-start
+		justify-items-center
+		justify-items-end
+3. Gutters
+
