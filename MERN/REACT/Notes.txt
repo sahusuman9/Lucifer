@@ -1,0 +1,88 @@
+4/7/2023
+
+REACT- a JS framework
+
+1. React is JS library used to develop web and app ui.
+2. It's an open-source, reuseable components based frontend library.
+3. Mainly Components are used.
+
+4. Characterstics of React-
+	1. Easy to create dynamic web apps.
+	2. Enhances the performance.
+	3. Reusable Components.
+	4. Uniderectional Dataflow.
+	5. Small Learning Curve.
+	6. Can also be used for Mobile apps. react native is used.
+	7. Has dedicated tools for debugging.
+
+5. Features of React-
+	1. JSX- JavaScript Syntax Extension, JS + HTML = JSX, can be used to write HTML in same JS file.
+		eg. const simple = <h1>Hello World!</h1>;
+	2. VIRTUAL DOM(data obj model)- Its same as Real DOM, only updates the required elements after comparision.
+	3. Performance- 
+	4. One Way Data Binding- used when info is displayed and not updated, Componenets of raect are functional in nature.
+	5. Extensions- has server-side rendering; Flux, Redux
+		FLUX has undirectional flow, i.e Action -> Dispatcher -> Store -> View
+	6. Debugging-
+
+
+
+6. ------COMPONENTS, STATES AND PROPS--------
+
+1. COMPONENTS- they are the building blocks of any react application. UI is divided into multiple components. Like function that returns HTML elements; componenets are reusable.
+
+------------------------------------------------------------------------------------
+	import React from "react";
+
+	class simple extends React.Component {
+		state = {};
+		render() {
+		   return (
+			<div><h1>HELLO</h1></div>
+		   );
+		}
+	}
+-------------------------------------------------------------------------------------
+
+	1. A componenet is implemented as a JS class having some state and a render method.
+	2. State is the data that is req to render.
+	3. Render method is responsible for the visuals and feel of the UI for the user.
+
+
+2. STATE- state of a component of obj that holds some data; This data influences the o/p of the componenet; everytime the state of an obj changes, the component is re-rendered.
+
+3. PROPS- It allows us to pass arguments and data to the componenets.
+
+
+```````````````````How to Access properties or props passed to a component````````````````````````
+	App.js
+-----------------------------------------------------------------------------------------
+	import React from "react";
+
+	class App extends React.Component {
+		render() {
+		   return (
+			<div>
+			   <h1>{ this.props.carProp }</h1>
+			   <h1>{ this.props.bikeProp }</h1>
+			</div>
+		   );
+		}
+	}
+-----------------------------------------------------------------------------------------
+
+	Main.js
+-----------------------------------------------------------------------------------------
+	import React from "react";
+	import ReactDOM from "react-dom";
+	import App from './App.jsx';
+
+	ReactDOM.render(<App carProp = "1600cc" bikeprop = "150cc"/>,
+		document.getElementById('app'));
+	
+	export default App;
+-----------------------------------------------------------------------------------------
+
+
+
+	

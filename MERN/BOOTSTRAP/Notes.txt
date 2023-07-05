@@ -14,4 +14,7 @@ LAYOUT
 		justify-items-center
 		justify-items-end
 3. Gutters
+	g-0 is used to remove gutters in column
 
+4. Buttons
+	btn btn-color
