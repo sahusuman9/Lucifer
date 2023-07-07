@@ -11,3 +11,20 @@
 4. JS is a programming language understood by both browser and compiler.
 5. An element can have multiple classes and only one unique id.
 6. Containers that stores data values are called variiables.
+7. Default value for a variab;le is undefined if any vlaue is not stored.
+8. Arrays are the collection of elements.
+
+9. There are 2 types of data types- primmitive and non-primitive
+	Primitive- undefined, null, number, string, boolean, symbol
+	Reference- arrays, objects
+
+10. FUNCTIONS- They are based on DRY principles i.e, they don't repeat themselves.
+11. in chorme console, blue color means num and red color means string.
+12. Condtional Statements
+	if
+	if-else
+	if-else ladder
+	for
+	forEach
+	while
+13.

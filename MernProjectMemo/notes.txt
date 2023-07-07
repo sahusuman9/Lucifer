@@ -1,0 +1,20 @@
+MERN PROJECT
+
+
+###################### INSTALLATIONS #######################
+
+****Server-Side******
+
+1. Body Parser- enables us to post requests.
+2. Cors- enable cross origin requests.
+3. Express- Used to create a framework for routing of app.
+4. Mongoose- to create models for posts.
+5. Nodemon- we dont need tio reset the server everytime we change, it will be done by nodemon.
+
+****Client-Side*****
+
+1. Axios- used to make API requests.
+2. Moment- library to work with time and date.
+3. React-file-base-64: used to convert the images.
+4. Redux
+5. Redux-thunk: used for asynchronous actions using redux.

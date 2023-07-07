@@ -4,7 +4,7 @@ REACT- a JS framework
 
 1. React is JS library used to develop web and app ui.
 2. It's an open-source, reuseable components based frontend library.
-3. Mainly Components are used.
+3. Mainly Components are used; ReactDOM is used to render the components.
 
 4. Characterstics of React-
 	1. Easy to create dynamic web apps.
@@ -14,11 +14,13 @@ REACT- a JS framework
 	5. Small Learning Curve.
 	6. Can also be used for Mobile apps. react native is used.
 	7. Has dedicated tools for debugging.
+	8. As class is reserved keyword in JS we use className.
+	9. {}, these can have any valid JS expression.
 
 5. Features of React-
 	1. JSX- JavaScript Syntax Extension, JS + HTML = JSX, can be used to write HTML in same JS file.
 		eg. const simple = <h1>Hello World!</h1>;
-	2. VIRTUAL DOM(data obj model)- Its same as Real DOM, only updates the required elements after comparision.
+	2. VIRTUAL DOM(data obj model)- Its same as Real DOM, only updates the required elements after comparision. It's Faster than Real DOM.
 	3. Performance- 
 	4. One Way Data Binding- used when info is displayed and not updated, Componenets of raect are functional in nature.
 	5. Extensions- has server-side rendering; Flux, Redux
@@ -28,6 +30,8 @@ REACT- a JS framework
 
 
 6. ------COMPONENTS, STATES AND PROPS--------
+
+
 
 1. COMPONENTS- they are the building blocks of any react application. UI is divided into multiple components. Like function that returns HTML elements; componenets are reusable.
 
@@ -48,10 +52,22 @@ REACT- a JS framework
 	2. State is the data that is req to render.
 	3. Render method is responsible for the visuals and feel of the UI for the user.
 
+-----Features of React Compoements
+	1. Re-usability
+	2. Nested-Components
+	3. Render Method
+	4. Passing Properties
+
+-----Types Of Components
+	1. Stateless Functional Components- They are JS functions that return HTML; can be .js or .jsx; import react -> write function -> return.
+	2. Stateful Class Component- Regular Classes that extend the compoment class; must render a method that returns HTML; can be .js or .jsx; import react -> class extends react component -> render() method.
+
+
+
 
 2. STATE- state of a component of obj that holds some data; This data influences the o/p of the componenet; everytime the state of an obj changes, the component is re-rendered.
 
-3. PROPS- It allows us to pass arguments and data to the componenets.
+3. PROPS- It allows us to pass arguments and data to the react componenets.
 
 
 ```````````````````How to Access properties or props passed to a component````````````````````````
@@ -85,4 +101,13 @@ REACT- a JS framework
 
 
 
-	
+7.--------------REACT HANDS_ON-----------------
+
+1. App.js- Its the main componemt that get's rendered to the DOM.
+2. App.js is a functional component.
+3. In react Multiple HTML tag have to be enclosed in the <div> Tag.
+4. Key feature of class componenet is the usage of the render method.
+5. Components can be nested in App.js using import and export keywords.
+	-2 types of export: 1. Default Export; 2. Named Export
+6. Higher Order & Pure Components
+	Higher Order Components- its is function that take a components and return a new component.
