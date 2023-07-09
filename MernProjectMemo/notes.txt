@@ -1,4 +1,4 @@
-MERN PROJECT
+################################################ MERN PROJECT #############################################
 
 
 ###################### INSTALLATIONS #######################
@@ -18,3 +18,12 @@ MERN PROJECT
 3. React-file-base-64: used to convert the images.
 4. Redux
 5. Redux-thunk: used for asynchronous actions using redux.
+
+
+*************** FILE STRUCTURE *************
+
+----------- SERVERSIDE ---------
+
+1. CONTROLLERS -> posts.js
+2. MODELS -> postMessage.js
+3. ROUTES -> Post.js
