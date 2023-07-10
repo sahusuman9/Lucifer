@@ -8,115 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
+      rel="stylesheet"/>
 
-      body {
-        background-color: rgb(0, 0, 33);
-        color: white;
-        font-family: "Poppins", sans-serif;
-      }
-
-      nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 80px;
-        background-color: rgb(11, 11, 48);
-      }
-      nav ul {
-        display: flex;
-        justify-content: center;
-      }
-      nav ul li {
-        list-style: none;
-        margin: 0 23px;
-      }
-      nav ul li a {
-        text-decoration: none;
-        color: white;
-      }
-      nav ul li a:hover {
-        color: rgb(151, 151, 214);
-        font-size: 1.02rem;
-      }
-
-      main hr {
-        border: 0;
-        background: rgb(153, 153, 226);
-        height: 1.2px;
-        margin: 60px 84px;
-      }
-      .left {
-        font-size: 1.5rem;
-      }
-      .firstSection {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin: 130px 0;
-      }
-      .firstSection > div {
-        width: 30%;
-      }
-      .leftSection {
-        font-size: 3rem;
-      }
-      .rightSection img {
-        width: 100%;
-      }
-      .purple {
-        color: rgb(142, 71, 207);
-      }
-      .text-gray {
-        color: gray;
-      }
-      #element {
-        color: rgb(142, 71, 207);
-      }
-      .secondSection {
-        max-width: 80vw;
-        margin: auto;
-        height: 80vh;
-      }
-
-      .secondSection h1 {
-        font-size: 1.9rem;
-      }
-
-      .card {
-        transition: 0.3s;
-        border-radius: 5px;
-        text-align: center;
-      }
-
-      .card img {
-        border-radius: 5px 5px 0 0;
-        height: 90px;
-        width: 90px;
-      }
-
-      .card img:hover {
-        transition: 0.3s;
-      }
-
-      .container {
-        padding: 2px 16px;
-      }
-      .row {
-        display: flex;
-        margin-top: 3rem;
-      }
-
-      .container h4 {
-        margin-top: 1rem;
-      }
-    </style>
+      <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <header>
@@ -140,6 +34,10 @@
           Hi, My name is <span class="purple">Suman</span>
           <div>and I'm a passionate</div>
           <span id="element"></span>
+         <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+         </div>
         </div>
         <div class="rightSection">
           <img src="./bg.png" />
@@ -149,102 +47,133 @@
       <hr />
 
       <section class="secondSection">
-        <span class="text-gray">Work I have done so Far</span>
-        <h1>Developer Skills</h1>
+        <span class="text-gray">What I know</span>
+        <h1>My Skills</h1>
 
         <div class="row">
           <div class="col">
             <div class="card">
-              <img src="./h.png" />
-              <div class="container">
-                <h4>HTML</h4>
-                <p class="text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Suscipit ex quasi est. Cum officia nam animi dolorum, aut
-                  eveniet reprehenderit. Natus doloribus veritatis iure quisquam
-                  nobis vel neque, maxime ea.
-                </p>
+                <div class="image">
+                  <img src="./h.png" />
+                </div>
+                <div class="content">
+                  <h3>HTML</h3>
+                  <p>
+                    The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. 
+                  </p>
+                </div>
               </div>
-            </div>
           </div>
 
           <div class="col">
             <div class="card">
-              <img src="./c.png" />
-              <div class="container">
-                <h4>CSS</h4>
-                <p class="text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Suscipit ex quasi est. Cum officia nam animi dolorum, aut
-                  eveniet reprehenderit. Natus doloribus veritatis iure quisquam
-                  nobis vel neque, maxime ea.
-                </p>
+                <div class="image">
+                  <img src="./c.png" />
+                </div>
+                <div class="content">
+                  <h3>CSS</h3>
+                  <p>
+                    Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML.
+                  </p>
+                </div>
               </div>
-            </div>
           </div>
 
           <div class="col">
             <div class="card">
-              <img src="./j.png" />
-              <div class="container">
-                <h4>JAVASCRIPT</h4>
-                <p class="text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Suscipit ex quasi est. Cum officia nam animi dolorum, aut
-                  eveniet reprehenderit. Natus doloribus veritatis iure quisquam
-                  nobis vel neque, maxime ea.
-                </p>
+                <div class="image">
+                  <img src="./j.png" />
+                </div>
+                <div class="content">
+                  <h3>JAVASCRIPT</h3>
+                  <p>
+                    JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.
+                  </p>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
+      </section>
 
+
+      <section class="thirdSection">
         <div class="row">
           <div class="col">
             <div class="card">
-              <img src="./b.png" />
-              <div class="container">
-                <h4>BOOTSTRAP</h4>
-                <p class="text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Suscipit ex quasi est. Cum officia nam animi dolorum, aut
-                  eveniet reprehenderit. Natus doloribus veritatis iure quisquam
-                  nobis vel neque, maxime ea.
-                </p>
+                <div class="image">
+                  <img src="./b.png" />
+                </div>
+                <div class="content">
+                  <h3>BOOTSTRAP</h3>
+                  <p>
+                    Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.
+                  </p>
+                </div>
               </div>
-            </div>
           </div>
+
           <div class="col">
             <div class="card">
-              <img src="./r.png" />
-              <div class="container">
-                <h4>REACT JS</h4>
-                <p class="text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Suscipit ex quasi est. Cum officia nam animi dolorum, aut
-                  eveniet reprehenderit. Natus doloribus veritatis iure quisquam
-                  nobis vel neque, maxime ea.
-                </p>
+                <div class="image">
+                  <img src="./r.png" />
+                </div>
+                <div class="content">
+                  <h3>REACT JS</h3>
+                  <p>
+                    React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta.
+                  </p>
+                </div>
               </div>
-            </div>
           </div>
+
           <div class="col">
             <div class="card">
-              <img src="./f.png" />
-              <div class="container">
-                <h4>FIGMA</h4>
-                <p class="text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Suscipit ex quasi est. Cum officia nam animi dolorum, aut
-                  eveniet reprehenderit. Natus doloribus veritatis iure quisquam
-                  nobis vel neque, maxime ea.
-                </p>
+                <div class="image">
+                  <img src="./f.png" />
+                </div>
+                <div class="content">
+                  <h3>FIGMA</h3>
+                  <p>
+                    Figma is a collaborative web application for interface design, with additional offline features enabled by desktop applications for macOS and Windows.
+                  </p>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
       </section>
     </main>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Suman's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; sumansportfolio.com | All nights Reserved.
+        </div>
+    </footer>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <!-- Setup and start animation! -->
@@ -256,7 +185,7 @@
           "Video Editor",
           "Web Designer",
         ],
-        typeSpeed: 50,
+        typeSpeed: 100,
       });
     </script>
   </body>
