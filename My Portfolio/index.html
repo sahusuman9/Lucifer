@@ -39,7 +39,7 @@
 
     <!--home section design-->
 
-    <secton class="home" id="home">
+    <section class="home" id="home">
         <div class="home-content">
             <h3>Hello, It's Me</h3>
             <h1>Suman Kumar Sahu</h1>
@@ -47,10 +47,10 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic et, doloribus necessitatibus dignissimos 
                 consectetur aspernatur molestias magnam.</p>
             <div class="social-media">
-                <a href="#"><i class='bx bxl-github' ></i></a>
-                <a href="#"><i class='bx bxl-linkedin' ></i></a>
-                <a href="#"><i class='bx bxl-instagram' ></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://github.com/sahusuman9" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/suman-sahu-78b601219/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://www.instagram.com/glance_frm_lens/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://twitter.com/sahu_suman_9?t=1qeJY0gOzJsSzGW8G4-0BA&s=09" target="_blank"><i class='bx bxl-twitter' ></i></a>
             </div>
             <a href="#" class="btn">Download CV</a>
         </div>
@@ -58,7 +58,7 @@
         <div class="home-img">
             <img src="./1.png" />
         </div>
-    </secton>
+    </section>
 
 
 
@@ -114,20 +114,102 @@
 
 
 
+    <!--Portfolio design part-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+
+            <div class="portfolio-box">
+                <img src="./a.jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, repellat?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./e.jpg">
+                <div class="portfolio-layer">
+                    <h4>Front-End Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, repellat?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./f.jpg">
+                <div class="portfolio-layer">
+                    <h4>Back-End Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, repellat?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--Contact design-->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+       <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+       </form>
+    </section>
+
+
+    <!--Footer Design-->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Suman Kumar Sahu | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+
+    <!--scroll reveal-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
 
 
 
 
+    <!--Custom JS-->
+
+    <script src="./jscript.js"></script>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <!-- Setup and start animation! -->
-    <script>
-      var typed = new Typed("#element", {
-        strings: [
-          "Front-End Developer",
-        ],
-        typeSpeed: 100,
-      });
-    </script>
+
+   <script>
+    //Setup and start animation!
+
+  var typed = new Typed("#element", {
+    strings: [
+      "Front-End Developer",
+    ],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backdelay: 1000,
+    loop: true
+  });
+   </script>
 </body>
 </html>
